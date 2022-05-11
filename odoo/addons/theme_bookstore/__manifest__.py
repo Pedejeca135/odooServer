@@ -1,0 +1,56 @@
+{
+    'name': 'Bookstore Theme',
+    'description': 'Books, Magazines, Music',
+    'category': 'Theme/Retail',
+    'summary': 'Library, Books, Magazines, Literature, Musics, Media, Store',
+    'sequence': 250,
+    'version': '2.1.0',
+    'author': 'Odoo S.A.',
+    'depends': ['theme_common'],
+    'data': [
+        'data/ir_asset.xml',
+        'views/images.xml',
+
+        'views/snippets/s_title.xml',
+        'views/snippets/s_three_columns.xml',
+        'views/snippets/s_picture.xml',
+        'views/snippets/s_text_image.xml',
+        'views/snippets/s_product_list.xml',
+        'views/snippets/s_call_to_action.xml',
+        'views/snippets/s_cover.xml',
+        'views/snippets/s_image_text.xml',
+        'views/snippets/s_masonry_block.xml',
+        'views/snippets/s_banner.xml',
+        'views/snippets/s_numbers.xml',
+        'views/snippets/s_media_list.xml',
+        'views/snippets/s_comparisons.xml',
+        'views/snippets/s_features_grid.xml',
+        'views/snippets/s_product_catalog.xml',
+        'views/snippets/s_quotes_carousel.xml',
+    ],
+    'images': [
+        'static/description/bookstore_description.jpg',
+        'static/description/bookstore_screenshot.jpg',
+    ],
+    'images_preview_theme': {
+        'website.s_cover_default_image': '/theme_bookstore/static/src/img/snippets/s_cover.jpg',
+        'website.s_masonry_block_default_image_1': '/theme_bookstore/static/src/img/snippets/s_masonry_block.jpg',
+        'website.s_picture_default_image': '/theme_bookstore/static/src/img/snippets/s_picture.jpg',
+        'website.s_product_list_default_image_1': '/theme_bookstore/static/src/img/snippets/s_product_1.jpg',
+        'website.s_product_list_default_image_2': '/theme_bookstore/static/src/img/snippets/s_product_2.jpg',
+        'website.s_product_list_default_image_3': '/theme_bookstore/static/src/img/snippets/s_product_3.jpg',
+        'website.s_product_list_default_image_4': '/theme_bookstore/static/src/img/snippets/s_product_4.jpg',
+        'website.s_product_list_default_image_5': '/theme_bookstore/static/src/img/snippets/s_product_5.jpg',
+        'website.s_product_list_default_image_6': '/theme_bookstore/static/src/img/snippets/s_product_6.jpg',
+    },
+    'snippet_lists': {
+        'homepage': ['s_cover', 's_masonry_block', 's_image_text', 's_picture', 's_product_list', 's_call_to_action'],
+    },
+    'license': 'LGPL-3',
+    'live_test_url': 'https://theme-bookstore.odoo.com',
+    'assets': {
+        'website.assets_editor': [
+            'theme_bookstore/static/src/js/tour.js',
+        ],
+    }
+}

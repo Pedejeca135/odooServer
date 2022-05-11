@@ -1,0 +1,49 @@
+2022-05-06 18:17:33,181 24832 INFO ? odoo: Odoo version 15.0-20220502 
+2022-05-06 18:17:33,181 24832 INFO ? odoo: Using configuration file at C:\odoo15\server\odoo.conf 
+2022-05-06 18:17:33,181 24832 INFO ? odoo: addons paths: ['C:\\odoo15\\server\\odoo\\addons', 'c:\\users\\pjco9\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-05-06 18:17:33,181 24832 INFO ? odoo: database: openpg@localhost:5432 
+2022-05-06 18:17:37,441 24832 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo15\thirdparty\wkhtmltopdf.exe 
+2022-05-06 18:17:45,721 24832 INFO ? odoo.service.server: Initiating shutdown 
+2022-05-06 18:17:45,721 24832 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-05-06 18:17:48,515 16996 INFO ? odoo: Odoo version 15.0-20220502 
+2022-05-06 18:17:48,515 16996 INFO ? odoo: Using configuration file at C:\odoo15\server\odoo.conf 
+2022-05-06 18:17:48,515 16996 INFO ? odoo: addons paths: ['C:\\odoo15\\server\\odoo\\addons', 'c:\\users\\pjco9\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-05-06 18:17:48,515 16996 INFO ? odoo: database: openpg@localhost:5432 
+2022-05-06 18:17:48,726 16996 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo15\thirdparty\wkhtmltopdf.exe 
+2022-05-06 18:17:48,926 16996 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-KE425AE:8069 
+2022-05-06 18:17:53,010 16996 INFO ? odoo.sql_db: Connection to the database failed 
+2022-05-06 18:17:57,050 16996 INFO ? odoo.sql_db: Connection to the database failed 
+2022-05-06 18:24:42,664 16996 INFO ? odoo.http: HTTP Configuring static files 
+2022-05-06 18:24:42,795 16996 INFO ? odoo.http: Generating nondb routing 
+2022-05-06 18:24:42,843 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:42] "GET / HTTP/1.1" 303 - 1 0.010 0.098
+2022-05-06 18:24:43,014 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web HTTP/1.1" 303 - 2 0.010 0.145
+2022-05-06 18:24:43,222 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/database/selector HTTP/1.1" 200 - 2 0.005 0.198
+2022-05-06 18:24:43,322 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,329 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,329 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,333 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,336 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,338 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,344 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,367 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,368 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,368 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,373 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,381 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,393 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,395 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,397 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,412 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,415 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,431 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/img/logo2.png HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,482 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2022-05-06 18:24:43,618 16996 INFO ? werkzeug: 127.0.0.1 - - [06/May/2022 18:24:43] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2022-05-06 22:35:00,490 16996 INFO ? odoo.service.server: Initiating shutdown 
+2022-05-06 22:35:01,083 16996 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-05-06 22:35:01,318 16996 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2022-05-06 22:35:38,804 8748 INFO ? odoo: Odoo version 15.0-20220502 
+2022-05-06 22:35:38,804 8748 INFO ? odoo: Using configuration file at C:\odoo15\server\odoo.conf 
+2022-05-06 22:35:38,804 8748 INFO ? odoo: addons paths: ['C:\\odoo15\\server\\odoo\\addons', 'c:\\users\\pjco9\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-05-06 22:35:38,804 8748 INFO ? odoo: database: openpg@localhost:5432 
+2022-05-06 22:35:39,080 8748 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo15\thirdparty\wkhtmltopdf.exe 
+2022-05-06 22:35:39,392 8748 INFO ? odoo.service.server: HTTP service (werkzeug) running on fictional-university.local:8069 
